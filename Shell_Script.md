@@ -115,7 +115,7 @@
 
 ## 20) IMP interview question on Pipe : 
 
-- if we use ```date | echo"today is "```, why date is not print after echo statement?
+- if we use ```date | echo"today is "```, why date is not print after echo statement?<br>
 ANS :- The ```date``` command does pass its output to the ```pipe```. However, in the command ```date | echo "today is "```, the ```echo``` command does not read from the ```pipe```. ```Pipes``` only work if the command following the ```pipe``` is designed to accept input from the ```pipe```. Since ```echo``` does not read from ```stdin```, it simply prints "today is " and ignores the output of ```date```.
 
 So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
