@@ -18,37 +18,42 @@
     cd                  ->Change Directory
     ex:-cd Desktop      ->Go to Desktop directory.
 
-## 4) How to list the files & folders?
+## 4)How back to the previous directory?
+    cd ..               ->Back to the previous directory
+    cd ../..            ->By using this we can back two preivous directory
+    cd first/second     ->By using this we can go inside or ahead two next directory
+
+## 5) How to list the files & folders?
     ls                  -> will show all files 
     ls -ltr             -> show files with timestamp
 
-## 5) man command in Linux: 
+## 6) man command in Linux: 
 - man is stands for manual 
 - Just suffix any command with man and simply type the command.
 - It will give you the detail information of that perticular command
 - ex. man touch , man ls
 
-## 6) How to write a file in Linux?
+## 7) How to write a file in Linux?
     vi file_name        -> will open the file for writing the content
 
-## 7) Difference between vi & touch command: 
+## 8) Difference between vi & touch command: 
 
 - touch command we use in automation.
 - vi command we use for write inside the file or in case file dosen't exists then it create and open for write inside the file.
 
-## 8) What is the purpose of --> #!/bin/bash
+## 9) What is the purpose of --> #!/bin/bash
     #!/                  -> shebang
 - bash or sh or ksh or dash this are differnt executables of your shell script 
 - executables that run the program 
 
-## 9) Difference between sh , bash , dash and ksh:
+## 10) Difference between sh , bash , dash and ksh:
 
 - sh --> Original Unix shell, basic and portable.
 - bash --> Advanced, user-friendly, and feature-rich shell.
 - dash --> Minimal, fast, and optimized for system scripts.
 - ksh --> Powerful shell with advanced scripting for enterprises.
 
-## 10) How to use insert command in linux?
+## 11) How to use insert command in linux?
 
 - once you use vi command to open the file then you have to do next steps:
     - press 'esc' key then 'i' for insert
