@@ -1,6 +1,6 @@
 ## 1.DevOps:-
 	
- Def:-DevOps is a process of improving the application delivery:
+ Def:-DevOps is a process of improving the application delivery:<br>
 1)Quality 
 2)Automation 
 3)Continuous Monitoring 
