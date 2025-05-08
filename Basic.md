@@ -47,12 +47,12 @@ Step-by-Step: Launch a Virtual Machine (EC2 Instance) on AWS
 	->Click the “Launch Instance” button.
 4. Configure Your Instance
 You’ll need to set up several options:
-	->Name: Give your instance a name.
-	->AMI (Amazon Machine Image): Choose an OS (e.g., Ubuntu, Amazon Linux, Windows).
-	->Instance Type: Choose hardware (e.g. free tier).
-	->Key Pair: Create or select an existing key pair (used for SSH access).
-	->Network Settings: Set up or use a default VPC and subnet. Allow SSH (port 22) or RDP (port 3389) depending on the OS.
-	->Storage: Default (8 GB for Linux is typical; increase if needed).
+   -Name: Give your instance a name.
+   -AMI (Amazon Machine Image): Choose an OS (e.g., Ubuntu, Amazon Linux, Windows).
+   -Instance Type: Choose hardware (e.g. free tier).
+   -Key Pair: Create or select an existing key pair (used for SSH access).
+   -Network Settings: Set up or use a default VPC and subnet. Allow SSH (port 22) or RDP (port 3389) depending on the OS.
+   -Storage: Default (8 GB for Linux is typical; increase if needed).
 5. Launch the Instance
 	->Click “Launch Instance” after reviewing settings.
 6. Steps to connect your EC2 instance with terminal 
