@@ -25,10 +25,10 @@ o	Tools: IDEs, version control (e.g., Git).<br>
 o	Conduct unit testing, integration testing, system testing, and user acceptance testing.<br>
 o	Aim: detect and fix bugs before deployment.<br>
 6.	Deployment<br>
-	->Release the software to production.<br>
+o	Release the software to production.<br>
 7.	Maintenance<br>
-	->Fix bugs, patch security issues, and make enhancements as needed.<br>
-        ->Monitor performance and user feedback.<br>
+o	Fix bugs, patch security issues, and make enhancements as needed.<br>
+o	Monitor performance and user feedback.<br>
 ## ANS:- 4,5,6,7 These steps are combined together and working an automated in DevOps<br>
 
 ## 3.Virtual Machine:-
