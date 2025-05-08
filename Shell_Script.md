@@ -8,66 +8,68 @@
 
 # Shell Scripting
 
-## 1) How to create a file?
-    touch file_name     -> using this command
-
-## 2)Where I am currently?
+## 1)Where I am currently?
     pwd                 ->print working directory.
 
-## 3)How to change the directory?
+## 2)How to change the directory?
     cd                  ->Change Directory
     ex:-cd Desktop      ->Go to Desktop directory.
 
-## 4)How back to the previous directory?
+## 3)How back to the previous directory?
     cd ..               ->Back to the previous directory
     cd ../..            ->we can back two preivous directory
     cd first/second     ->we can go inside or ahead two next directory
 
-## 5) How to list the files & folders?
+## 4) How to list the files & folders?
     ls                  -> will show all files 
     ls -ltr             -> show files with timestamp
 
-## 6) man command in Linux: 
+## 5) How to create a file?
+    touch file_name     -> using this command
+
+## 6) Difference between vi & touch command: 
+
+- touch command we use in automation.
+- vi command we use for write inside the file or in case file dosen't exists then it create and open for write inside the file.
+    
+## 7) How to write a file in Linux?
+    vi file_name        -> will open the file for writing the content
+
+## 8) How to use insert command in linux?
+
+- once you use vi command to open the file then you have to do next steps:
+    - press 'esc' key then 'i' for insert
+    - after this you can write somthing in your file.
+    - after writing the file you need to save the file using 'esc' + ':wq!' for saving the file
+    - for reading the content of the file you need to use
+
+## 9)How to read a content of the file
+    cat file_name         -> will show all the content of file.
+
+## 10) man command in Linux: 
 - man is stands for manual 
 - Just suffix any command with man and simply type the command.
 - It will give you the detail information of that perticular command
 - ex. man touch , man ls
 
-## 7) How to write a file in Linux?
-    vi file_name        -> will open the file for writing the content
-
-## 8) Difference between vi & touch command: 
-
-- touch command we use in automation.
-- vi command we use for write inside the file or in case file dosen't exists then it create and open for write inside the file.
-
-## 9) What is the purpose of --> #!/bin/bash
+## 11) What is the purpose of --> #!/bin/bash
     #!/                  -> shebang
 - bash or sh or ksh or dash this are differnt executables of your shell script 
 - executables that run the program 
 
-## 10) Difference between sh , bash , dash and ksh:
+## 11) Difference between sh , bash , dash and ksh:
 
 - sh --> Original Unix shell, basic and portable.
 - bash --> Advanced, user-friendly, and feature-rich shell.
 - dash --> Minimal, fast, and optimized for system scripts.
 - ksh --> Powerful shell with advanced scripting for enterprises.
 
-## 11) How to use insert command in linux?
-
-- once you use vi command to open the file then you have to do next steps:
-    - press 'esc' key then 'i' for insert
-    - after this you can write somthing in your file.
-    - after writing the file you need to save the file using 'esc' + ':wq!' for saving the file
-    - for reading the content of the file you need to use 
-
-        ```cat file_name```  ---> will show all the content of file.
-## 9) How to execute a shell Script?
+## 12) How to execute a shell Script?
 - for any executables file we can use 
     
     ```./file_name or sh file_name```
 
-## 10) How to grant permissions in linux?
+## 13) How to grant permissions in linux?
 - using chmod command you can change permissions access mode 
  
  ```chmod 777 file_name```
