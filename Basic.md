@@ -1,4 +1,4 @@
-1.DevOps:-
+## 1.DevOps:-
 	Def:-DevOps is a process of improving the application delivery:
 1)Quality 
 2)Automation 
@@ -7,7 +7,7 @@
 
 -Before DevOps Developer Team, Testing Team, Deployment Team, Maintenance Team working speratly.
 
-2.SDLC(Software Development Life Cycle):-
+## 2.SDLC(Software Development Life Cycle):-
 Phases of SDLC:
 1.	Requirement Gathering and Analysis
 o	Understand what the client/user needs.
@@ -30,7 +30,7 @@ o	Fix bugs, patch security issues, and make enhancements as needed.
 o	Monitor performance and user feedback.
 ANS:- 4,5,6,7 These steps are combined together and working an automated in DevOps
 
-3.Virtual Machine:-
+## 3.Virtual Machine:-
 -A Virtual Machine (VM) is a software-based simulation of a physical computer.
 -It runs an operating system and applications just like a real computer, but it's hosted on another machine called a host system.
 1) hypervisor - (like VMware, VirtualBox, or Hyper-V) creates and manages VMs.
