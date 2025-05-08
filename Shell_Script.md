@@ -20,8 +20,8 @@
 
 ## 4)How back to the previous directory?
     cd ..               ->Back to the previous directory
-    cd ../..            ->By using this we can back two preivous directory
-    cd first/second     ->By using this we can go inside or ahead two next directory
+    cd ../..            ->we can back two preivous directory
+    cd first/second     ->we can go inside or ahead two next directory
 
 ## 5) How to list the files & folders?
     ls                  -> will show all files 
