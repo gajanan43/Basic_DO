@@ -28,7 +28,7 @@ o	Release the software to production.
 7.	Maintenance
 o	Fix bugs, patch security issues, and make enhancements as needed.
 o	Monitor performance and user feedback.
-ANS:- 4,5,6,7 These steps are combined together and working an automated in DevOps
+## ANS:- 4,5,6,7 These steps are combined together and working an automated in DevOps
 
 ## 3.Virtual Machine:-
 -A Virtual Machine (VM) is a software-based simulation of a physical computer.
@@ -37,7 +37,7 @@ ANS:- 4,5,6,7 These steps are combined together and working an automated in DevO
 2) Host machine runs the hypervisor and shares its hardware (CPU, RAM, storage) with VMs.
 3) Each VM (guest) acts like a separate computer with its own OS (Windows, Linux, etc.).
 
-4.AWS & Azure:-
+## 4.AWS & Azure:-
 To create a virtual machine (VM) on AWS, you typically launch an EC2 (Elastic Compute Cloud) instance. Here's a step-by-step guide:
 Step-by-Step: Launch a Virtual Machine (EC2 Instance) on AWS
 1. Sign in to AWS Console
@@ -56,6 +56,6 @@ You’ll need to set up several options:
 5. Launch the Instance
 •	Click “Launch Instance” after reviewing settings.
 6. Steps to connect your EC2 instance with terminal 
-SSH (for Linux): Use the .pem key with ssh -i /path of your key value pair file.pem ubuntu@PublicIPAddress
+## SSH (for Linux): Use the .pem key with ssh -i /path of your key value pair file.pem ubuntu@PublicIPAddress
 
 
