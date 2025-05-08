@@ -44,7 +44,14 @@
     - for reading the content of the file you need to use
 
 ## 9)How to read a content of the file
-    cat file_name         -> will show all the content of file.
+    cat file_name          -> will show all the content of file.
+
+## 10)How to delete a  file or directories?
+    rm file                ->Deletes a file                               
+    rm -i file             ->Prompts for confirmation before deleting     
+    rm -f file             ->Forces deletion (no prompt)                  
+    rm -r folder           ->Recursively deletes a directory and contents 
+    rm -rf folder          ->Forcefully deletes a directory (no prompt)   
 
 ## 10) man command in Linux: 
 - man is stands for manual 
