@@ -54,7 +54,10 @@
     rm -rf folder          ->Forcefully deletes a directory (no prompt)   
 
 ## 11) How to create folders?
-    mkdir folder_name         ->cerate a folder(directory)
+    mkdir folder_name         ->cerate a folder(directory).
+
+- mk  ->make(create)
+- dir ->directory(folder)
 
 ## 12) How to check CPU and RAM of a linux machine?
 
