@@ -101,7 +101,7 @@
 - mod ->mode
 
  - chmod ```777``` file_name     ->Permission<br>
-    - 7 ->my self permission<br>
+    - 7 ->my self(Owner) permission<br>
     - 7 ->my group permission<br>
     - 7 ->everyone permission<br>
          
@@ -111,7 +111,7 @@
     - 2 -> write 
     - 1 -> execute
   
-- ```ex: chmod 444 file_name ->owner,group,everyone permission has to read only file cann't write it```
+- ```ex: chmod 444 file_name ->The owner, group, and everyone have read-only permission to the file and cannot write to it.```
 
 ## 20) How to check the history of commands?
     history                    ->view all the history
