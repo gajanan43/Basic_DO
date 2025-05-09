@@ -100,7 +100,7 @@
 - ch  ->change
 - mod ->mode
 
- -chmod ```777``` file_name     ->Permission<br>
+ - chmod ```777``` file_name     ->Permission<br>
     - 7 ->my self permission<br>
     - 7 ->my group permission<br>
     - 7 ->everyone permission<br>
