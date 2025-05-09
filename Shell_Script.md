@@ -73,7 +73,7 @@
 ## 14) man command in Linux:(explanation of any script) 
 - man is stands for manual 
 - Just suffix any command with man and simply type the command.
-- It will give you the detail information of that perticular command
+- It will give you the detail information of that perticular command<br>
 ```ex. man touch , man ls```
 
 ## 15) What is the purpose of --> #!/bin/bash
