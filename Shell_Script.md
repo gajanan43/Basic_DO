@@ -99,7 +99,12 @@
 - using chmod command you can change permissions access mode
 - ch  ->change
 - mod ->mode
- 
+
+ -chmod ```777``` file_name     ->Permission
+         7->my self permission
+         7->my group permission
+         7->everyone permission
+         
  ```chmod 777 file_name```
  -  this each 7 is stands for :
     - 4 -> read
