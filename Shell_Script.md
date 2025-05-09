@@ -110,6 +110,8 @@
     - 4 -> read
     - 2 -> write 
     - 1 -> execute
+  
+- ```ex: chmod 444 file_name ->owner,group,everyone permission has to read only file cann't write it```
 
 ## 20) How to check the history of commands?
     history                    ->view all the history
