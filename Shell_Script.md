@@ -96,7 +96,9 @@
     ```./file_name or sh file_name```
 
 ## 19) How to grant permissions in linux?
-- using chmod command you can change permissions access mode 
+- using chmod command you can change permissions access mode
+- ch  ->change
+- mod ->mode
  
  ```chmod 777 file_name```
  -  this each 7 is stands for :
