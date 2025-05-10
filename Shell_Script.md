@@ -204,6 +204,7 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
     fi 
 
 - this is how if- else loop syntax looks like
+- ``after if and [ & ] this symbol always keep a space``.
 
 ## 32) for loop in shell scripting : 
 
