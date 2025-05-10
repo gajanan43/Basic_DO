@@ -173,7 +173,10 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
 ## 29) ```wget``` command and use-case : 
 
 - ```wget``` command download the provide file
-- ```wget URL_of_logfile``` -> will download this file in current directory
+- ```wget URL_of_logfile``` -> will download this file in current directory.
+- In that to find ERROR uses ```two commands```.
+- ```wget URL_of_logfile```  ->to download file
+- ```cat file_name | gerp ERROR```  ->find error in logfile.
 
 ## 30) How to use find command? 
 
