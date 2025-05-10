@@ -206,6 +206,22 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
 - this is how if- else loop syntax looks like
 - ``after if and [ & ] this symbol always keep a space``.
 
+## if-elif-else in shell scrpting :
+
+- syntax-
+      a=4
+      b=4
+      if [ $a -gt $b ]
+      then echo "a is greater than b"
+
+      elif [ $a -lt $b ]
+      then echo "a is less than b"
+
+      else echo "a is equal to b"
+      fi
+
+  - ``after if and [ & ] this symbol always keep a space``.
+
 ## 32) for loop in shell scripting : 
 
 - syntax-
