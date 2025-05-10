@@ -162,6 +162,7 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
 
 - ```set -e ``` is use for detection of the error in your script
 - and ```set -o pipefail``` is use for pipefail detect and stop execution of the script.
+- all above combine commands & write as ```set exo pipefail```.
 
 ## 28) How to search error in remote logfile?
 
