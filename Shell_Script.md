@@ -130,7 +130,7 @@
     - date 
     - purpose of the script
     - version
-    - you can also use echo statements to improve your script understanding
+    - you can also use ```echo``` statements to improve your script understanding
     - Developer use ```set -x``` command to run script in debug mode, that helps you to analyze your output follw through your input command.
 
 ## 23) What are processes, How to list them and Find process ID?
