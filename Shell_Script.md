@@ -205,7 +205,7 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
 ## if-elif-else in shell scrpting :
 
 - syntax -
-  
+```bahs
       a=4
       b=4
       if [ $a -gt $b ]
@@ -216,13 +216,13 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
 
       else echo "a is equal to b"
       fi
-
+```
 - ``after if and [ & ] this symbol always keep a space``.
 
 ## 32) for loop in shell scripting : 
 
 - syntax-
-     
+```bash   
     for i in {1..50}
 
     do
@@ -230,7 +230,7 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
     echo $i
     
     done
-
+```
 - this is how for loop looks like.
 
 
