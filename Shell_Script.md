@@ -196,7 +196,7 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
     then echo "a is greater than b"
 
     else echo "b is grater than a"
-    fi 
+    fi ```
 
 - this is how if- else loop syntax looks like
 - ``after if and [ & ] this symbol always keep a space``.
