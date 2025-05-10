@@ -153,7 +153,8 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
 ## 26) ```awk``` command :
 
 - ```awk``` is a pattern scanning and processing language 
-- In simple words getting specific value from the entire row
+- In simple words getting specific value from the entire row.
+- retrive a specific column given data.
 - ex. ```ps -ef | grep "amazone" | awk -F " " '{print $2}'```
 
 
