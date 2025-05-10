@@ -188,19 +188,15 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
 
 ## 31) if-else in shell scripting : 
 
-- syntax- 
-    ->
+- syntax - 
     
     a=4
-    
     b=10
-
+  
     if [ "$a" -gt "$b"]
-    
     then echo "a is greater than b"
 
     else echo "b is grater than a"
-
     fi 
 
 - this is how if- else loop syntax looks like
