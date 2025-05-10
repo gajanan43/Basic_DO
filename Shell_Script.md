@@ -138,7 +138,8 @@
 - using ```ps -ef``` this command you can find process ID.
 
 ## 24) grep and pipe commands to filter the ```ps -ef``` output:
-- if in case you need to retrive the amazone processes ID then you can use ```ps -ef | grep "amazone"```
+- if in case you need to retrive the amazone processes ID then you can use ```ps -ef | grep "amazone"```.
+- if serach string related then put into in string form and if search integer then put just a integer number.
 - pipe sends the output of the first command to the second command
 
 ## 25) IMP interview question on Pipe : 
