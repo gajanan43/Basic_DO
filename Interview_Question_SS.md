@@ -25,6 +25,10 @@
 - ```find``` - Searches for files or directories.
     - ```find /path -name filename```
 
+## How take a input value form user?
+
+read -p "Your message here: " variable_name
+
 
 ## 2) Write a shell Script to list all processes : 
 - ```ps -ef```
