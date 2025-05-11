@@ -63,7 +63,7 @@ echo -e "\n=== End of Report ==="
 ###  How to Run:
 
 1. Save this as `aws-usage-report.sh`
-2. Make executable: `chmod +x aws-usage-report.sh`
+2. Make executable: `chmod 777 aws-usage-report.sh`
 3. Run: `./aws-usage-report.sh`
 
 
