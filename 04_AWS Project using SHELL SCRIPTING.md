@@ -1,3 +1,5 @@
+# Day-07
+
 # Here's a simple Bash script using AWS CLI to **report the usage of AWS resources** in your project. This includes:
 
 * EC2 instances
