@@ -1,3 +1,5 @@
+# Day-06
+
 ## Linux OS:<br>
 1. Open Source: Linux is freely available and its source code can be modified and distributed.<br>
 2. Multiuser and Multitasking: Supports multiple users and runs many tasks simultaneously.<br>
