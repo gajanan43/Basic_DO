@@ -1,11 +1,8 @@
-Great! Yes, we can **extend your GitHub access script** to:
+# Day-8
 
 1. ✅ Show users with **read, write, and admin** access
 2. ✅ List **teams** from the organization that have access to the repository
 
-Below is a complete updated version of the script that does both.
-
----
 
 ## 🛠️ **Extended Script: `github-access-report.sh`**
 
@@ -24,7 +21,7 @@ REPO_OWNER=$1
 REPO_NAME=$2
 
 if [[ -z "$USERNAME" || -z "$TOKEN" ]]; then
-    echo "❌ ERROR: Please export 'username' and 'token' environment variables."
+    echo "ERROR: Please export 'username' and 'token' environment variables."
     exit 1
 fi
 
@@ -44,7 +41,7 @@ echo "-----------------------------------------------"
 
 # --- Collaborators by permission ---
 function list_collaborators_by_permission {
-    echo -e "\n[🧑‍💻 Users with Access Permissions]"
+    echo -e "\n[ Users with Access Permissions]"
 
     collaborators=$(github_api_get "repos/${REPO_OWNER}/${REPO_NAME}/collaborators?per_page=100")
 
@@ -60,7 +57,7 @@ function list_collaborators_by_permission {
 
 # --- Team Access (organization only) ---
 function list_teams_with_access {
-    echo -e "\n[👥 Teams with Access to Repository]"
+    echo -e "\n[ Teams with Access to Repository]"
 
     teams=$(github_api_get "repos/${REPO_OWNER}/${REPO_NAME}/teams?per_page=100")
 
@@ -76,7 +73,7 @@ function list_teams_with_access {
 list_collaborators_by_permission
 list_teams_with_access
 
-echo -e "\n✅ Report Complete"
+echo -e "\n Report Complete"
 ```
 
 ---
@@ -97,7 +94,7 @@ Save as `github-access-report.sh`
 ### 3. Make it executable
 
 ```bash
-chmod +x github-access-report.sh
+chmod 777 github-access-report.sh
 ```
 
 ### 4. Run it
