@@ -237,6 +237,7 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
 ## while loop in shell scripting :
 
 - syntax -
+```bash
 
       num=1
       while [ $num -le 5 ]
@@ -244,7 +245,7 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
       echo "Number is:$num"
       ((num++))        #increament by 1
       done
-
+```
 
 ## 33) ```trap``` command : 
 - this is use for traping signals
