@@ -1,4 +1,4 @@
-# Day-8
+# Day-08
 
 1. ✅ Show users with **read, write, and admin** access
 2. ✅ List **teams** from the organization that have access to the repository
