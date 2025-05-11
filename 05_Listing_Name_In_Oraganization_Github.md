@@ -123,10 +123,3 @@ Admin Access:
 [👥 Teams with Access to Repository]
   - DevTeam (Permission: push)
   - Admins (Permission: admin)
-
-✅ Report Complete
-```
-
----
-
-Would you like me to convert this output into a CSV or JSON report for download or automation?
