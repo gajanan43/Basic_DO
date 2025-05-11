@@ -1,3 +1,4 @@
+# Day-01
 ## 1.DevOps:-
 	
  Def:-DevOps is a process of improving the application delivery:<br>
@@ -7,6 +8,8 @@
 4) Continuous Testing <br>
 
 -Before DevOps Developer Team, Testing Team, Deployment Team, Maintenance Team working speratly.<br>
+
+# Day-02
 
 ## 2.SDLC(Software Development Life Cycle):-
 Phases of SDLC:<br>
@@ -31,12 +34,16 @@ o	Fix bugs, patch security issues, and make enhancements as needed.<br>
 o	Monitor performance and user feedback.<br>
 ## ANS:- 4,5,6,7 These steps are combined together and working an automated in DevOps<br>
 
+# Day-03
+
 ## 3.Virtual Machine:-
 -A Virtual Machine (VM) is a software-based simulation of a physical computer.<br>
 -It runs an operating system and applications just like a real computer, but it's hosted on another machine called a host system.<br>
 1) hypervisor -(like VMware, VirtualBox, or Hyper-V) creates and manages VMs.<br>
 2) Host machine runs the hypervisor and shares its hardware (CPU, RAM, storage) with VMs.<br>
 3) Each VM (guest) acts like a separate computer with its own OS (Windows, Linux, etc.).<br>
+
+# Day-04
 
 ## 4.AWS & Azure:-
 To create a virtual machine (VM) on AWS, you typically launch an EC2 (Elastic Compute Cloud) instance. Here's a step-by-step guide:<br>
