@@ -60,13 +60,11 @@ echo -e "\n=== End of Report ==="
 
 ---
 
-### 📌 How to Run:
+###  How to Run:
 
 1. Save this as `aws-usage-report.sh`
 2. Make executable: `chmod +x aws-usage-report.sh`
 3. Run: `./aws-usage-report.sh`
 
----
 
-Would you like me to tailor this report for a specific AWS service or resource type?
 
