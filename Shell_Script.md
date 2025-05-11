@@ -234,6 +234,18 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
 - this is how for loop looks like.
 
 
+## while loop in shell scripting :
+
+- syntax -
+
+      num=1
+      while [ $num -le 5 ]
+      do
+      echo "Number is:$num"
+      ((num++))        #increament by 1
+      done
+
+
 ## 33) ```trap``` command : 
 - this is use for traping signals
 - signals are messages used to control or communicate with running programs, like stoping, pausing or restarting them.
