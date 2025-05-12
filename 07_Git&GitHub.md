@@ -59,4 +59,5 @@ A classroom with **one whiteboard** (the server). Everyone must go to that white
 Every student in the classroom has their **own notebook** with a full copy of the whiteboard. They can work on their own and later share updates with each other.
 
 
+![ChatGPT Image May 12, 2025, 08_01_40 PM](https://github.com/user-attachments/assets/fdef92cf-4efd-4e15-9d6f-9f35bae105ce)
 
