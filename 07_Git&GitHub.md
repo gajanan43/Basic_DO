@@ -99,3 +99,7 @@ Every student in the classroom has their **own notebook** with a full copy of th
 * **Security and Access Control**: Provides permissions and role management for teams.
 
 
+![ChatGPT Image May 12, 2025, 08_09_47 PM](https://github.com/user-attachments/assets/a444de34-204d-4e7d-a0b6-0858ecb91b99)
+
+
+
