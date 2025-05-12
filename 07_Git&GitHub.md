@@ -61,3 +61,41 @@ Every student in the classroom has their **own notebook** with a full copy of th
 
 ![ChatGPT Image May 12, 2025, 08_01_40 PM](https://github.com/user-attachments/assets/fdef92cf-4efd-4e15-9d6f-9f35bae105ce)
 
+
+## What is Git?
+
+**Git** is a **distributed version control system** used to track changes in source code during software development. It allows multiple developers to work on a project simultaneously without interfering with each other's work. Git helps manage versions, collaborate on code, and keep a history of all changes made to a project.
+
+**Key features of Git:**
+
+* **Distributed**: Every developer has a complete copy of the project repository.
+* **Version Control**: Tracks code changes and allows reverting to previous versions.
+* **Branching and Merging**: Developers can work in isolated branches and merge them later.
+* **Speed and Efficiency**: Git performs operations like commits, merges, and diffs very quickly.
+
+| Command               | Description                                |
+| --------------------- | ------------------------------------------ |
+| `git init`            | Initialize a new Git repository            |
+| `git clone <url>`     | Copy a remote repository                   |
+| `git status`          | Show the current state of the repo         |
+| `git add <file>`      | Stage a file for commit                    |
+| `git commit -m "msg"` | Save a snapshot with a message             |
+| `git push`            | Send changes to remote repo                |
+| `git pull`            | Get updates from remote repo               |
+| `git branch`          | List or create branches                    |
+| `git merge`           | Combine changes from one branch to another |
+
+
+## What is GitHub?
+
+**GitHub** is a **web-based platform** that uses Git for version control and provides a user-friendly interface for hosting, sharing, and collaborating on Git repositories. It’s a popular platform for open-source and private software projects.
+
+**Key features of GitHub:**
+
+* **Remote Git Repositories**: Stores code online so teams can collaborate from anywhere.
+* **Collaboration Tools**: Includes pull requests, issues, and project boards.
+* **Community and Open Source**: Allows users to explore and contribute to public repositories.
+* **CI/CD Integration**: Supports continuous integration and deployment pipelines.
+* **Security and Access Control**: Provides permissions and role management for teams.
+
+
