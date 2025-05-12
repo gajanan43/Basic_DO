@@ -31,3 +31,32 @@ It keeps track of every modification made to the codebase, so you can:
 * **Subversion (SVN)** (centralized)
 * **Mercurial**
 * **Perforce**
+
+
+## Centralized Version Control System (CVCS)
+
+* There is **one central server** where all the code and history are stored.
+* Developers **connect to this server** to get the latest code or share their changes.
+* If the **server goes down**, no one can collaborate or access the code.
+
+**Example:** SVN (Subversion), CVS
+
+#### Think of it like:
+
+A classroom with **one whiteboard** (the server). Everyone must go to that whiteboard to see or update information. If the whiteboard is gone, no one can work.
+
+
+## 🔹 Distributed Version Control System (DVCS)
+
+* Every developer has a **full copy of the entire project**, including the history.
+* You can **work offline** — commit changes, switch branches, and view history.
+* When ready, you can **sync with others** using a remote server (like GitHub).
+
+**Example:** Git, Mercurial
+
+####  Think of it like:
+
+Every student in the classroom has their **own notebook** with a full copy of the whiteboard. They can work on their own and later share updates with each other.
+
+
+
