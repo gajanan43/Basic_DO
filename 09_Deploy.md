@@ -60,7 +60,7 @@ STATIC_DIR="./client"
 PUBLISHABLE_KEY=""
 SECRET_KEY=""
 ```
-For this project, we'll have to set up an Elastic IP Address for our EC2 & that would be our DOMAIN
+For this project, we'll have to set up an ```Elastic IP Address``` for our EC2 & that would be our ```DOMAIN```
 
 3. Initialise and start the project
 ```bash
