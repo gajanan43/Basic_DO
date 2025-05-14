@@ -68,3 +68,8 @@ Git follows these four main stages:
 ## 6. Difference Between Merge and Rebase
 - Merge → Creates a new commit that combines both branch histories.
 - Rebase → Reapplies commits on top of another branch, making history linear (no extra merge commits).
+
+## 7.How to get deleted file with git
+
+   git checkout HEAD -- filename
+
