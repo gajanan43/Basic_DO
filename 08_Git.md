@@ -41,7 +41,7 @@
 - update file in the new branch & commit this changes
 - difference in that braches when see the log files
 - new branch show ```all the log```
-- In main brach show ```only main brach logs```
+- In main brach show ```only main branch logs```
 
 ## 2. Difference Between Clone and Fork
 - Fork → Creates a separate copy of a repository in your GitHub/GitLab account (used for contributing to open-source projects).
