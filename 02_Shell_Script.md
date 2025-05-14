@@ -253,5 +253,7 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
 - this is use for traping signals
 - signals are messages used to control or communicate with running programs, like stoping, pausing or restarting them.
 
+## How to rename file?
 
+mv old_filename new_filename     ->to a rename file
 
