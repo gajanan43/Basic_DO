@@ -36,7 +36,7 @@
 ## 2. Difference Between Clone and Fork
 - Fork → Creates a separate copy of a repository in your GitHub/GitLab account (used for contributing to open-source projects).
 - Clone → Downloads an existing repository from GitHub to your local machine for development.
-- 
+ 
 ## 3. Explain Git Lifecycle
 Git follows these four main stages:
 
@@ -44,13 +44,16 @@ Git follows these four main stages:
 - Modified → Files are tracked but have unsaved changes.
 - Staged → Files are added to the staging area using git add.
 - Committed → Changes are saved in the repository using git commit.
+  
 ## 4. Why Do We Create a New Branch?
 - To work on a new feature or fix a bug without affecting the main branch.
 - To allow multiple developers to work on different features independently.
+  
 ## 5. Merge, Rebase, and Cherry-Pick
 - Merge (git merge) → Combines changes from one branch into another.
 - Rebase (git rebase) → Moves a branch to start from a new base, making the commit history cleaner.
 - Cherry-Pick (```git cherry-pick <commit-hash>```) → Selectively applies specific commits from one branch to another.
+  
 ## 6. Difference Between Merge and Rebase
 - Merge → Creates a new commit that combines both branch histories.
 - Rebase → Reapplies commits on top of another branch, making history linear (no extra merge commits).
