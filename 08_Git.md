@@ -1,7 +1,6 @@
 # Day-11
 
 ## 1.How to Create or Initialize a Git Repository?
-   
    git init                -> Initializes a new Git repository in the current folder.
 
 - ```ls -a``` → Lists all files, including hidden ones (you will see .git folder).
