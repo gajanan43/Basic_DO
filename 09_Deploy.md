@@ -22,14 +22,14 @@ npm run start
 
 #### Set up an AWS EC2 instance
 
-1. Create an IAM user & login to your AWS Console
-   o Access Type - Password
-   o Permissions - Admin
-2. Create an EC2 instance
-   o Select an OS image - Ubuntu
-   o Create a new key pair & download ```.pem``` file
-   o Instance type - t2.micro
-3. Connecting to the instance using ssh
+1. Create an IAM user & login to your AWS Console<br>
+o    Access Type - Password
+o    Permissions - Admin
+2. Create an EC2 instance<br>
+o    Select an OS image - Ubuntu
+o    Create a new key pair & download ```.pem``` file
+o    Instance type - t2.micro
+3. Connecting to the instance using ssh<br>
 
 ```bash
 ssh -i instance.pem ubunutu@<IP_ADDRESS>
