@@ -19,7 +19,7 @@
 - ```git clone <repo-url>``` → Downloads (copies) a remote repository to the local system.
 - ```git remote -v``` → Displays the remote repositories linked to your local repo.
 - ```ssh-keygen -t rsa``` → Generates an SSH key for secure Git authentication.
--  git rm file_name    ->to remove form directory
+- ```git rm file_name```  →to remove form directory
 
 ## 2. Difference Between Clone and Fork
 - Fork → Creates a separate copy of a repository in your GitHub/GitLab account (used for contributing to open-source projects).
