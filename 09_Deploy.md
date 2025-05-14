@@ -2,4 +2,5 @@
 
 ### Testing the project locally
 1.Clone this project
- ```bash git clone https://github.com/verma-kunal/AWS-Session.git```
+ ```bash git clone https://github.com/verma-kunal/AWS-Session.git
+```
