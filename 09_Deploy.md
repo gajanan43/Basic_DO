@@ -42,8 +42,9 @@ ssh -i instance.pem ubunutu@<IP_ADDRESS>
 sudo apt update
 ```
 
-2. Install Git - <a href="Guide by DigitalOcean">
-3. Configure Node.js and ```npm``` - <a href="Guide by DigitalOcean">
+2. Install Git - [Guide by DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04)
+3. Configure Node.js and `npm` - [Guide by DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
+
 
 ### Deploying the project on AWS
 1. Clone this project in the remote VM
@@ -68,4 +69,4 @@ npm run start
 ```
 NOTE - We will have to edit the inbound rules in the security group of our EC2, in order to allow traffic from our particular port
 
-Project is deployed on AWS 
+### Project is deployed on AWS 
