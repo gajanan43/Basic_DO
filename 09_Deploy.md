@@ -3,4 +3,4 @@
 ### Testing the project locally
 
 1. Clone this project
-   git clone https://github.com/verma-kunal/AWS-Session.git
+ git clone https://github.com/verma-kunal/AWS-Session.git
