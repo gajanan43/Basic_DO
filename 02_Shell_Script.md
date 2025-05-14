@@ -255,5 +255,5 @@ So yes, the ```pipe``` works, but ```echo``` is not using the data passed to it.
 
 ## How to rename file?
 
-- mv old_filename new_filename     ->to a rename file
+- ```mv old_filename new_filename     ->to a rename file```
 
