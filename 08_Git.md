@@ -71,5 +71,5 @@ Git follows these four main stages:
 
 ## 7.How to get deleted file with git
 
-   git checkout HEAD -- filename                  ->get deleted file form main branch 
+- ```git checkout HEAD -- filename``` → get deleted file form main branch 
 
