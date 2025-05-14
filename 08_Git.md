@@ -22,6 +22,17 @@
 - ```ssh-keygen -t rsa``` → Generates an SSH key for secure Git authentication.
 - ```git rm file_name```  →to remove form directory
 
+## How to push file on github?
+
+ 1) create folder    →  Create a new folder
+ 2) create file      →  Create or add your file
+ 3) git init         →  Initialize Git repo
+ 4) git add.         →  Add files to Git
+ 5) git commit -m "message"  →  Commit your changes
+ 6) git remote add origin https://github.com/yourusername/test-project.git  →  Connect to GitHub repository
+ 7) git branch -M main       →  
+ 8) git push -u origin main  →  Push to GitHub
+
 ## 2. Difference Between Clone and Fork
 - Fork → Creates a separate copy of a repository in your GitHub/GitLab account (used for contributing to open-source projects).
 - Clone → Downloads an existing repository from GitHub to your local machine for development.
