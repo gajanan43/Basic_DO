@@ -24,7 +24,7 @@
 - ```git clone <repo-url>``` → Downloads (copies) a remote repository to the local system.
 - ```git remote -v``` → Displays the remote repositories linked to your local repo.
 - ```ssh-keygen -t rsa``` → Generates an SSH key for secure Git authentication.
-- ```git rm file_name```  →to remove form directory
+- ```git rm file_name```  →  to remove form directory
 
 ## How to push file on github?
 
@@ -44,6 +44,12 @@
 - new branch show ```all the log```
 - In main brach show ```only main branch logs```
 - merge two branches using three conecpts: ```cherry-pick,rebase & merge```
+- 1)cherry-pick :  ````git cherry-pick <commit-hash>``` → Done in two branchs only(main & log id of another branch(commit-hash))
+- 2)merge: ```git merge another_branch_name``` → merge two braches(solve the conflicts)
+- 3)rebase: ```git rebase another_branch_name```→ merge two braches(solve the conflicts(sit with developers and sovle))
+
+- git log of ```merge branches``` show on top of ```rebase branch```
+              
 
 ## 2. Difference Between Clone and Fork
 - Fork → Creates a separate copy of a repository in your GitHub/GitLab account (used for contributing to open-source projects).
