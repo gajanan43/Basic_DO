@@ -19,6 +19,7 @@
 - ```git commit -m "message"``` → Saves the changes to the repository with a message.
 
 - ```git log``` → Shows the history of commits.
+- ```git log branch_name --oneline``` → see log detail of given branch
 - ```git push``` → Uploads local commits to a remote repository.
 - ```git clone <repo-url>``` → Downloads (copies) a remote repository to the local system.
 - ```git remote -v``` → Displays the remote repositories linked to your local repo.
