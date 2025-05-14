@@ -1,7 +1,7 @@
 # Day-11
 
 ## 1. How to Create or Initialize a Git Repository?
-- ```git init``` → Initializes a new Git repository in the current folder.
+- git init → Initializes a new Git repository in the current folder.
 
 - ```ls -a``` → Lists all files, including hidden ones (you will see .git folder).
 
@@ -12,6 +12,8 @@
 
 - ```git add <file>``` → Adds a file to the staging area.
 - ```git checkout <branch>``` → Switches to another branch.
+- ```git checkout -b new_branch_name```  → To Create and Switch to a New Branch
+- ```git switch -c new_branch_name```
 
 - ```git commit -m "message"``` → Saves the changes to the repository with a message.
 
