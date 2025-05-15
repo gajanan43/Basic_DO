@@ -7,6 +7,7 @@
 git clone https://github.com/verma-kunal/AWS-Session.git
 ```
 2. Setup the following environment variables - `(.env)` file
+   ```.env``` file is hidden file to others & to setup public & secret file got to this link [https://dashboard.stripe.com/](https://dashboard.stripe.com/)
 ```
 DOMAIN= ""
 PORT=3000
