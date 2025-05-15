@@ -2,7 +2,7 @@
 
 ## 1. Installed Ansible:
 
-  Go to [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-20-04)
+- click  [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-20-04)
 
 
 ## 🔐 Password-less Authentication in Ansible using SSH Keys
