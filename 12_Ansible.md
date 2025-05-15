@@ -1,19 +1,26 @@
 # Day-15
 
-## 1. Installed Ansible:
+# 1. Installed Ansible:
 
 - click  [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-20-04)
 
 
-## 🔐 Password-less Authentication in Ansible using SSH Keys
+# 2. Setup Password-less Authentication in Ansible using SSH Keys:
 
-### 🧠 Idea:
+### prerequisite:
+
+- create two EC2 instances Contorl Node & Managed Node.
+
+### 🖥️ Scenario:
+
+* You're on **Control Node** (e.g., your laptop).
+* You can open another terminal and log into the **Managed Node**.
+* You want to manually **copy the Control Node’s public key** into the Managed Node’s `authorized_keys` file.
 
 > The **Control Node's public key** is copied to the **Managed Node’s `authorized_keys`** file. This allows the Control Node to log in **without a password**.
 
----
 
-## 🖥️ What is Control Node and Managed Node?
+### 🖥️ What is Control Node and Managed Node?
 
 | Term             | Meaning                                                                          |
 | ---------------- | -------------------------------------------------------------------------------- |
@@ -24,102 +31,127 @@
 
 ## 🔄 Step-by-Step Flow:
 
-### ✅ Step 1: Generate SSH Key on the **Control Node**
+### ✅ Step 1: Generate SSH Key on Control Node (if not already done)
+
+On the **Control Node**:
 
 ```bash
 ssh-keygen
 ```
 
-* This creates a **public key** and a **private key**:
+* Press Enter for default location: `~/.ssh/id_rsa`
+* Do **not** enter any passphrase (just hit Enter)
 
-  * Public Key: `~/.ssh/id_rsa.pub`
-  * Private Key: `~/.ssh/id_rsa`
+This creates:
 
-👉 **The public key will be shared**, the private key is kept secret.
+* `~/.ssh/id_rsa` → private key
+* `~/.ssh/id_rsa.pub` → public key
 
 ---
 
-### ✅ Step 2: Copy the **Control Node's public key** to the **Managed Node**
-
-Run this command on the Control Node:
+### ✅ Step 2: View the Public Key on Control Node
 
 ```bash
-ssh-copy-id user@managed-node-ip
+cat ~/.ssh/id_rsa.pub
+```
+
+Example output:
+
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC... your_key_here ... user@hostname
+```
+
+---
+
+### ✅ Step 3: Open a Second Terminal → Log into the Managed Node
+
+```bash
+ssh user@managed-node-ip
 ```
 
 Example:
 
 ```bash
-ssh-copy-id ubuntu@192.168.1.10
-```
-
-👉 This will copy the public key to:
-
-```
-/home/ubuntu/.ssh/authorized_keys
-```
-
-on the **Managed Node**.
-
-📌 This file allows the Control Node to connect without a password.
-
----
-
-### ✅ Step 3: Test SSH Access
-
-```bash
 ssh ubuntu@192.168.1.10
 ```
 
-✅ If no password is asked, the setup is successful.
+Now you're inside the Managed Node terminal.
 
 ---
 
-## 📂 What Just Happened?
+### ✅ Step 4: Create the `.ssh` directory (if not exists)
 
-### ✔ Control Node:
-
-* Public Key: `~/.ssh/id_rsa.pub`
-* Private Key: `~/.ssh/id_rsa` (used to log in)
-
-### ✔ Managed Node:
-
-* File Updated: `~/.ssh/authorized_keys`
-* It now **trusts** the Control Node’s public key
-
----
-
-## 🛠️ Use With Ansible
-
-Create an **inventory file** like this:
-
-```ini
-[web]
-192.168.1.10
-
-[web:vars]
-ansible_user=ubuntu
-ansible_ssh_private_key_file=~/.ssh/id_rsa
-```
-
-Run:
+On the **Managed Node**:
 
 ```bash
-ansible web -m ping -i hosts.ini
+mkdir -p ~/.ssh
+chmod 700 ~/.ssh
 ```
 
-✅ Ansible connects without password using the SSH key.
+---
+
+### ✅ Step 5: Open `authorized_keys` file in a text editor
+
+```bash
+nano ~/.ssh/authorized_keys
+```
+
+Or use `vi` if nano is not installed:
+
+```bash
+vi ~/.ssh/authorized_keys
+```
 
 ---
 
-## 🧠 Final Summary
+### ✅ Step 6: Paste the Public Key
 
-| Component      | Location                                                         |
-| -------------- | ---------------------------------------------------------------- |
-| Public Key     | Copied **from Control Node** → **to Managed Node**               |
-| Authorized Key | Located in `/home/user/.ssh/authorized_keys` on **Managed Node** |
-| Result         | Control Node can SSH into Managed Node without password          |
+* From the Control Node’s terminal, **copy** the full output of:
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+* Then **paste** it into the `authorized_keys` file in the Managed Node’s terminal.
 
 ---
 
-Would you like a playbook to automate this setup across multiple servers?
+### ✅ Step 7: Save and Set Permissions
+
+After saving the file:
+
+```bash
+chmod 600 ~/.ssh/authorized_keys
+```
+
+✅ Done! Now exit the Managed Node:
+
+```bash
+exit
+```
+
+---
+
+### ✅ Step 8: Test the SSH Login (Password-less)
+
+Back on the Control Node:
+
+```bash
+ssh user@managed-node-ip
+```
+
+It should **log in without asking for a password**.
+
+
+### Summary
+
+| Action                           | Performed On                |
+| -------------------------------- | --------------------------- |
+| Generate SSH Key                 | Control Node                |
+| Copy public key (manually)       | Control Node → Managed Node |
+| Paste key into `authorized_keys` | Managed Node                |
+| Test SSH                         | Control Node                |
+
+
+
+
