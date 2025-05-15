@@ -88,21 +88,15 @@ mkdir -p ~/.ssh
 chmod 700 ~/.ssh
 ```
 
----
 
 ### ✅ Step 5: Open `authorized_keys` file in a text editor
 
-```bash
-nano ~/.ssh/authorized_keys
-```
-
-Or use `vi` if nano is not installed:
+use `vim` :
 
 ```bash
 vi ~/.ssh/authorized_keys
 ```
 
----
 
 ### ✅ Step 6: Paste the Public Key
 
@@ -114,7 +108,6 @@ cat ~/.ssh/id_rsa.pub
 
 * Then **paste** it into the `authorized_keys` file in the Managed Node’s terminal.
 
----
 
 ### ✅ Step 7: Save and Set Permissions
 
@@ -129,8 +122,6 @@ chmod 600 ~/.ssh/authorized_keys
 ```bash
 exit
 ```
-
----
 
 ### ✅ Step 8: Test the SSH Login (Password-less)
 
