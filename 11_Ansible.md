@@ -2,7 +2,7 @@
 -  Imagine you have a computer lab with 100 computers, and you need to install the same software, settings, and updates on all of them. 
 - Doing it manually would be time-consuming and error-prone.
 
-- Instead, Configuration Management helps automate this process using tools like Ansible, Puppet, Chef, or Terraform, salt ensuring that all systems are set up correctly and remain consistent.
+- Instead, Configuration Management helps automate this process using tools like Ansible, Puppet, Chef, Terraform or salt, ensuring that all systems are set up correctly and remain consistent.
 
 ## 2. What is ansible playbook in simple words?
 - An Ansible Playbook is a file (written in YAML) that contains a set of instructions (tasks) to automate processes like configuring servers, deploying applications, or managing systems.
