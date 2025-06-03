@@ -64,6 +64,11 @@ You’ll need to set up several options:<br>
 5. Launch the Instance<br>
 	->Click “Launch Instance” after reviewing settings.<br>
 6. Steps to connect your EC2 instance with terminal <br>
+
+# AWS
 ## SSH (for Linux): Use the .pem key with ssh -i /path of your key value pair file.pem ubuntu@PublicIPAddress
+
+# Azure
+## SSH (for Linux): Use the .pem key with ssh -i /path of your key value pair file.pem azureuser@PublicIPAddress
 
 
