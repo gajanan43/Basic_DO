@@ -1,3 +1,4 @@
+# Day-14
 ## 1. What is configuration management system?
 -  Imagine you have a computer lab with 100 computers, and you need to install the same software, settings, and updates on all of them. 
 - Doing it manually would be time-consuming and error-prone.
