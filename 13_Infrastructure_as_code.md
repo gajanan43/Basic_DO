@@ -185,4 +185,3 @@ Here's a simple example of a `.tfstate` structure (JSON):
 
 ---
 
-Would you like help setting up a remote backend or securing your `.tfstate`?
