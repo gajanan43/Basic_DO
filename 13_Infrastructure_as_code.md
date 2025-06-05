@@ -68,7 +68,8 @@ The `.tfstate` file in **Terraform** is a crucial part of how Terraform manages 
 
 ---
 
-## 🌍 What Is `.tfstate`?
+
+# 🌍 What Is `.tfstate`?
 
 The `.tfstate` file is a **Terraform state file**. It **stores the current state of your infrastructure**—essentially, a snapshot of the real-world resources Terraform manages, like:
 
