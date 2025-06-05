@@ -126,3 +126,6 @@ terraform destroy
 * You can also use variables (`variables.tf`) and outputs (`outputs.tf`) to make the setup more modular.
 
 
+![Uploading ChatGPT Image Jun 5, 2025, 05_04_25 PM.png…]()
+
+
