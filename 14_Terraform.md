@@ -125,6 +125,4 @@ terraform destroy
 * For a **Linux VM**, use `azurerm_linux_virtual_machine` and update the `source_image_reference`.
 * You can also use variables (`variables.tf`) and outputs (`outputs.tf`) to make the setup more modular.
 
----
 
-Would you like me to give a Linux VM version or modularize this using separate `.tf` files?
