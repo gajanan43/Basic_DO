@@ -1,4 +1,6 @@
-### ✅ What is Terraform?
+# Day-17
+
+## ✅ What is Terraform?
 
 **Terraform** is an open-source **Infrastructure as Code (IaC)** tool created by **HashiCorp** that allows you to **define, provision, and manage infrastructure** across various cloud providers and services using a simple, declarative language called **HashiCorp Configuration Language (HCL)**.
 
@@ -69,7 +71,7 @@ The `.tfstate` file in **Terraform** is a crucial part of how Terraform manages 
 ---
 
 
-# 🌍 What Is `.tfstate`?
+## 🌍 What Is `.tfstate`?
 
 The `.tfstate` file is a **Terraform state file**. It **stores the current state of your infrastructure**—essentially, a snapshot of the real-world resources Terraform manages, like:
 
