@@ -1,4 +1,4 @@
-![ChatGPT Image Jun 5, 2025, 05_10_10 PM](https://github.com/user-attachments/assets/409f3c96-9bb2-4db2-a1fb-ad78ba97ea87)# Day-17
+# Day-17
 
 ### ✅ **Prerequisites**
 
@@ -126,7 +126,7 @@ terraform destroy
 * You can also use variables (`variables.tf`) and outputs (`outputs.tf`) to make the setup more modular.
 
 
-![Uploading ChatGPT Image Jun 5, 2025, 05_04_25 PM.png…](![Uploading ChatGPT Image Jun 5, 2025, 05_10_10 PM.png…]()
+![ChatGPT Image Jun 5, 2025, 05_10_10 PM](https://github.com/user-attachments/assets/409f3c96-9bb2-4db2-a1fb-ad78ba97ea87)
 
 
 
