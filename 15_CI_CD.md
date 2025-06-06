@@ -114,5 +114,4 @@ Let’s say you're building a web app:
 
 ---
 
-Let me know if you want a **diagram** or **example with a specific tool (like Jenkins or GitHub Actions)**.
 
