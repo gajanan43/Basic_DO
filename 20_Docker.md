@@ -1,3 +1,5 @@
+# Day-23
+
 ### ✅ 1) **What is a Virtual Machine (VM)?**
 
 A **Virtual Machine (VM)** is a software emulation of a physical computer. It runs an operating system (called **Guest OS**) on top of a virtualization layer (called a **hypervisor**), which interacts with the actual hardware (**Host OS**).
@@ -123,8 +125,11 @@ A **container** is a lightweight, standalone executable package that includes:
 
 ---
 
-![ChatGPT Image Jun 8, 2025, 11_43_32 AM](https://github.com/user-attachments/assets/54176308-38d4-46a8-9edc-8fd98d0ed8a2)
+
 Docker can run **on top of a virtual machine (VM)** as well as **directly on a physical machine**, depending on the deployment strategy and infrastructure. Here are the **two main ways Docker can be created and run**:
+
+
+![ChatGPT Image Jun 8, 2025, 11_43_32 AM](https://github.com/user-attachments/assets/54176308-38d4-46a8-9edc-8fd98d0ed8a2)
 
 ---
 
@@ -203,8 +208,6 @@ Hardware → Host OS (Linux) → Docker Engine → Containers
 | Isolation              | Better (adds VM isolation)              | Process-level only                 |
 | Complexity             | More layers (VM + Docker)               | Simpler stack                      |
 | Use Case               | Dev/test environments                   | Production, performance-critical   |
-
----
 
 
 
