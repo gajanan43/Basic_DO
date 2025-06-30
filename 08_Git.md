@@ -44,7 +44,7 @@
 - new branch show ```all the log```
 - In main brach show ```only main branch logs```
 - merge two branches using three conecpts: ```cherry-pick,rebase & merge```
-- 1)cherry-pick :  ````git cherry-pick <commit-hash>``` → Done in two branchs only(main & log id of another branch(commit-hash))
+- 1)cherry-pick :  ```git cherry-pick <commit-hash>``` → Done in two branchs only(main & log id of another branch(commit-hash))
 - 2)merge: ```git merge another_branch_name``` → merge two braches(solve the conflicts)
 - 3)rebase: ```git rebase another_branch_name```→ merge two braches(solve the conflicts(sit with developers and sovle))
 
