@@ -18,7 +18,7 @@ docker login
 
 Then enter:
 
-* **Username**: `gajanan43`
+* **Username**: `worlddev`
 * **Password**: Your Docker Hub password
 
   > 🔐 If you have 2FA enabled, use a **Docker Access Token** (from: [https://hub.docker.com/settings/security](https://hub.docker.com/settings/security))
@@ -36,7 +36,7 @@ Docker requires images to be tagged as:
 So tag your image like this:
 
 ```bash
-docker tag hellow-python gajanan43/hellow-python:latest
+docker tag hellow-python worlddev/hellow-python:latest
 ```
 
 > Replace `hellow-python` with whatever your image is named.
@@ -48,7 +48,7 @@ docker tag hellow-python gajanan43/hellow-python:latest
 Now push it to your account:
 
 ```bash
-docker push gajanan43/hellow-python:latest
+docker push worlddev/hellow-python:latest
 ```
 
 ✅ You should see something like:
@@ -70,7 +70,7 @@ Go to:
 You should now see:
 
 * Repository name: `hellow-python`
-* Under your account (`gajanan43`)
+* Under your account (`worlddev`)
 
 ---
 
@@ -79,9 +79,9 @@ You should now see:
 ```bash
 docker logout
 docker login                        # Use your Docker Hub account
-docker tag hellow-python gajanan43/hellow-python:latest
-docker push gajanan43/hellow-python:latest
+docker tag hellow-python worlddev/hellow-python:latest
+docker push worlddev/hellow-python:latest
 ```
 
-Let me know if you'd like help pushing a different project, or creating a `README.md` for your Docker Hub repo!
+
 
