@@ -200,5 +200,5 @@ Say you deploy a pod:
 * **Admission Controllers**: Validate or mutate requests before persistence
 
 ---
-![Kubernetes Architecture](https://phoenixnap.com/kb/understanding-kubernetes-architecture-diagrams)
+![Kubernetes Architecture]("C:\Users\Gajanan\Downloads\full-kubernetes-model-architecture.webp")
 
